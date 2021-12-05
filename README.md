@@ -29,7 +29,6 @@ The page is live at https://stevekoutsodontis.github.io/Team-Profile-Generator/
 * Inquirer 
 * Fs 
 * Path
-* Chalk
 
 ## Installation Instructions
 
@@ -46,7 +45,7 @@ Clone the Github project.
 To install packages dependencies in package.json, open a console in the correct directory and enter: >npm install
 
 ## Usage 
-To run this application, open a console in the correct directory and enter: >node index (or) >npm start
+To run this application, open a console in the correct directory and enter: >node index
 
 ## Screen Shots
 
