@@ -10,7 +10,7 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 // When render is passed into the write file command with the array of teamMembers, it creates a string template of the html file including html code to represent each teamMember.
 const render = require("./src/page-template.js");
-const { validate } = require("jest-validate");
+// const { validate } = require("jest-validate");
 
 const teamMembers = [];
 const idArray = [];
@@ -95,7 +95,7 @@ function appMenu() {
         answers.managerName,
         answers.managerId,
         answers.managerEmail,
-        answers.managerOfficeNumer
+        answers.managerOfficeNumber
       );
 
       // add the manager object to teamMembers
@@ -186,7 +186,7 @@ function appMenu() {
       // create an engineer object from class Engineer
       const engineer = new Engineer(
         answers.engineerName,
-        answers. engineerId,
+        answers.engineerId,
         answers.engineerEmail,
         answers.engineerGitHub
       );
@@ -204,7 +204,7 @@ function appMenu() {
       // prompt questions to user
       {
         type: 'input',
-        name: 'interName',
+        name: 'internName',
         message: "What is the Intern's name?",
         validate: (answer) => {
           if (answer !== '') {
@@ -246,10 +246,10 @@ function appMenu() {
     ]).then(answers => {
       // create an intern object from class Engineer
       const intern = new Intern(
-        answers.interName,
-        answers.interId,
+        answers.internName,
+        answers.internId,
         answers.internEmail,
-        answers.interSchool
+        answers.internSchool
       );
       // add the intern object to teamMembers
       teamMembers.push(intern);
