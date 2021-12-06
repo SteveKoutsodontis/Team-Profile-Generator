@@ -80,9 +80,7 @@ function appMenu() {
         name: "managerOfficeNumber",
         message: "What is the team manager's office number?",
         validate: answer => {
-          const pass = answer.match(
-            /^[1-9]\d*$/
-          );
+          const pass = answer.match(/^[1-9]\d*$/);
           if (pass) {
             return true;
           }
@@ -186,7 +184,7 @@ function appMenu() {
       // create an engineer object from class Engineer
       const engineer = new Engineer(
         answers.engineerName,
-        answers.engineerId,
+        answers. engineerId,
         answers.engineerEmail,
         answers.engineerGitHub
       );
