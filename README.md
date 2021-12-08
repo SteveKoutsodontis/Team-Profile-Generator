@@ -2,15 +2,6 @@
 ## Author 
 - [@SteveKoutsodontis](https://github.com/SteveKoutsodontis)
 
-## Getting Started:
-
-The page is live at https://stevekoutsodontis.github.io/Team-Profile-Generator/
-
-## Repository
-
-[GitHub repository](https://github.com/SteveKoutsodontis/Team-Profile-Generator)
-
-
 ## Description
 * Users of this application are asked for information on team members using a command line interface. Each team must have one manager, and engineers or interns may be added as necessary. 
 
@@ -42,17 +33,18 @@ If you want to edit applcation you must have a Github account, download Visual S
 
 Clone the Github project.
 
-To install packages dependencies in package.json, open a console in the correct directory and enter: >npm install
+To install packages dependencies in package.json, open a console in the correct directory and enter: npm install
 
 ## Usage 
-To run this application, open a console in the correct directory and enter: >node index
+To run this application, open a console in the root directory and enter: node index
 
 ## Screen Shots
 
-![Screenshot1]()
-![Screenshot2]()
-![Screenshot3]()
+![Screenshot](./images/teamGen1.png)
 
+# Demo
+
+[Team Profile Generator Video](https://watch.screencastify.com/v/lkxiQkonRwZ7EwT4i1As)
 ### License: 
  
 MIT License
