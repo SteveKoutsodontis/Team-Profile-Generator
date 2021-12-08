@@ -44,7 +44,7 @@ To run this application, open a console in the root directory and enter: node in
 
 # Demo
 
-[Team Profile Generator Video](https://watch.screencastify.com/v/lkxiQkonRwZ7EwT4i1As)
+[Team Profile Generator Video](https://drive.google.com/file/d/1rzho7PkrReklib2Hm18eQehFjaM2D8bN/view?usp=sharing)
 ### License: 
  
 MIT License
